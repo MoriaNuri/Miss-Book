@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: lightgray;
+    text-align: center;
+    /* background-image: url('/img/book.png'); */
+    /* background-repeat: no-repeat; */
+    /* background-size: 100%; */
+    /* background-position: center; */
+}
+
+button {
+    border: unset;
+    cursor: pointer;
+}
+
+img {
+    width: 100px;
+}
+
+
+/* HEADER */
+
+.app-header {
+    background-color: rgb(92, 105, 105);
+    height: 10vh;
+    margin: 20px;
+    text-align: center;
+    font-size: 4rem;
+    font-family: serif;
+    color: lightpink;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    font-size: 2rem;
+}
+
+
+/* APP */
+
+.app-main {
+    height: 90vh;
+}
+
+.book-app {
+    height: 90vh;
+    /* background-color: lightcyan; */
+}
+
+
+/* FILTER */
+
+.book-filter {
+    background-color: lightgray;
+    padding: 10px;
+    font-size: 20px;
+    color: lightslategrey;
+    font-weight: bold;
+}
+
+.book-filter input {
+    height: 35px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.book-filter button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gray;
+    color: wheat;
+    height: 35px;
+}
+
+
+/* LIST */
+
+.book-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+
+/* PREVIEW */
+
+.book-preview-container {
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: rgba(119, 136, 153, 0.288);
+}
+
+
+/* DETAILS */
+
+.book-details {
+    /* background-color: lightcoral; */
+    padding: 10px;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.review-container form {
+    display: flex;
+}
+
+
+/* EDIT */
+
+.book-edit {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 182, 193, 0.5);
+    font-size: 1.2rem;
+}
+
+.book-edit button {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: gray;
+    color: wheat;
+}
+
+
+/* FOOTER */
+
+.app-footer {
+    background-color: rgb(102, 113, 116);
+    height: 5vh;
+    /* height: 190px; */
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: lightpink;
+}
